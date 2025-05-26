@@ -24,12 +24,6 @@ Python 3.8+
 Git
 NVIDIA GPU (optional, for faster inference)
 
-Steps
-
-Clone the Repository:
-git clone https://github.com/your-username/deepfake-detection-vixnet.git
-cd deepfake-detection-vixnet
-
 
 Set Up a Virtual Environment (recommended):
 python -m venv venv
