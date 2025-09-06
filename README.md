@@ -88,7 +88,6 @@ Run Training: Execute the cells in the notebook. Note: Training is a computation
 This model adapts the ViXNet architecture by integrating EfficientNet-B3 for enhanced efficiency and generalization.
 
 
-
 ![Model Architecture](https://raw.githubusercontent.com/Ghulam-Haider/Deepfake-Detection-with-ViXNet-and-EfficientNet-B3/main/assets/architecture)
 Component	Details
 Core Architecture	Adapted from ViXNet, replacing Xception with EfficientNet-B3.
