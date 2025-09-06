@@ -7,7 +7,7 @@ This project provides an efficient and powerful deepfake detection system based 
 The model is trained on the **FaceForensics++ (FF++)** dataset and validated for generalization on the **Celeb-DF (CeDF)** dataset. A clean, modern web application built with Flask allows for easy, real-time inference.
 
 ![Deepfake Detection Web App](https://github.com/Ghulamhai/ImageDeepfakeDetection/blob/main/assets/webapp_1.png)
-![Deepfake Detection Web App](https://raw.githubusercontent.com/Ghulam-Haider/Deepfake-Detection-with-ViXNet-and-EfficientNet-B3/main/assets/webapp_2.png)
+![Deepfake Detection Web App](https://github.com/Ghulamhai/ImageDeepfakeDetection/blob/main/assets/webapp_2.png)
 
 ---
 
@@ -63,7 +63,7 @@ Place the downloaded best_combined_model.pth file in the root directory of the p
 Running the Web Application
 The web application provides a simple interface for testing the model. The workflow is as follows:
  
-![Workflow](https://raw.githubusercontent.com/Ghulam-Haider/Deepfake-Detection-with-ViXNet-and-EfficientNet-B3/main/assets/workflow.png)
+![Workflow](https://github.com/Ghulamhai/ImageDeepfakeDetection/blob/main/assets/workflow.png)
 Start the Flask server from the project's root directory:
 
 Bash
@@ -88,7 +88,7 @@ Run Training: Execute the cells in the notebook. Note: Training is a computation
 This model adapts the ViXNet architecture by integrating EfficientNet-B3 for enhanced efficiency and generalization.
 
 
-![Model Architecture](https://raw.githubusercontent.com/Ghulam-Haider/Deepfake-Detection-with-ViXNet-and-EfficientNet-B3/main/assets/architecture)
+![Model Architecture](https://raw.githubusercontent.com/Ghulam-Haider/Deepfake-Detection-with-ViXNet-and-EfficientNet-B3/main/assets/architecture.png)
 Component	Details
 Core Architecture	Adapted from ViXNet, replacing Xception with EfficientNet-B3.
 Global Branch (ViT)	A Vision Transformer (ViT-B_16) with 86M parameters to capture global relationships between image patches.
