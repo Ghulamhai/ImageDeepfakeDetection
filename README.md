@@ -88,7 +88,7 @@ Run Training: Execute the cells in the notebook. Note: Training is a computation
 This model adapts the ViXNet architecture by integrating EfficientNet-B3 for enhanced efficiency and generalization.
 
 
-![Model Architecture](https://raw.githubusercontent.com/Ghulam-Haider/Deepfake-Detection-with-ViXNet-and-EfficientNet-B3/main/assets/architecture.png)
+![Model Architecture](https://github.com/Ghulamhai/ImageDeepfakeDetection/blob/main/assets/architecture.png)
 Component	Details
 Core Architecture	Adapted from ViXNet, replacing Xception with EfficientNet-B3.
 Global Branch (ViT)	A Vision Transformer (ViT-B_16) with 86M parameters to capture global relationships between image patches.
