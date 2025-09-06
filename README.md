@@ -6,11 +6,12 @@ This project provides an efficient and powerful deepfake detection system based 
 
 The model is trained on the **FaceForensics++ (FF++)** dataset and validated for generalization on the **Celeb-DF (CeDF)** dataset. A clean, modern web application built with Flask allows for easy, real-time inference.
 
-![Deepfake Detection Web App](https://raw.githubusercontent.com/Ghulam-Haider/Deepfake-Detection-with-ViXNet-and-EfficientNet-B3/main/assets/webapp_screenshot.png)
+![Deepfake Detection Web App](https://raw.githubusercontent.com/Ghulam-Haider/Deepfake-Detection-with-ViXNet-and-EfficientNet-B3/main/assets/webapp_1.png)
+![Deepfake Detection Web App](https://raw.githubusercontent.com/Ghulam-Haider/Deepfake-Detection-with-ViXNet-and-EfficientNet-B3/main/assets/webapp_2.png)
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * **Advanced Dual-Branch Architecture**: Combines a patch-based Vision Transformer (ViT-B_16) for global context and an EfficientNet-B3 for local spatial feature extraction.
 * **High-Performance Detection**: Achieves **~94% accuracy** on the FF++ dataset and demonstrates strong generalization with **~70% accuracy** on the challenging Celeb-DF dataset.
@@ -19,7 +20,7 @@ The model is trained on the **FaceForensics++ (FF++)** dataset and validated for
 
 ---
 
-## 🛠️ Installation and Setup
+## 🛠 Installation and Setup
 
 ### 1. Prerequisites
 
@@ -58,10 +59,11 @@ Download from: PASTE YOUR MODEL'S GOOGLE DRIVE OR OTHER DOWNLOAD LINK HERE
 
 Place the downloaded best_combined_model.pth file in the root directory of the project.
 
-⚙️ Usage
+ Usage
 Running the Web Application
 The web application provides a simple interface for testing the model. The workflow is as follows:
-
+ 
+![Workflow](https://raw.githubusercontent.com/Ghulam-Haider/Deepfake-Detection-with-ViXNet-and-EfficientNet-B3/main/assets/workflow.png)
 Start the Flask server from the project's root directory:
 
 Bash
@@ -82,9 +84,12 @@ Update Paths: Modify the notebook to point to the correct paths for your downloa
 
 Run Training: Execute the cells in the notebook. Note: Training is a computationally intensive process and requires a powerful NVIDIA GPU.
 
-🧠 Model Architecture
+ Model Architecture
 This model adapts the ViXNet architecture by integrating EfficientNet-B3 for enhanced efficiency and generalization.
 
+
+
+![Model Architecture](https://raw.githubusercontent.com/Ghulam-Haider/Deepfake-Detection-with-ViXNet-and-EfficientNet-B3/main/assets/architecture)
 Component	Details
 Core Architecture	Adapted from ViXNet, replacing Xception with EfficientNet-B3.
 Global Branch (ViT)	A Vision Transformer (ViT-B_16) with 86M parameters to capture global relationships between image patches.
@@ -95,7 +100,7 @@ Output	A single sigmoid output. A score ≥ 0.5 is classified as Real, and < 0.5
 Training Details	Dataset: FaceForensics++, Epochs: 50, Optimizer: Adam, Learning Rate: 1e-4, Loss: Binary Cross-Entropy.
 
 Export to Sheets
-📊 Performance
+ Performance
 Intra-Dataset Evaluation (on FaceForensics++)
 Metric	Score
 Accuracy	93–94%
@@ -128,18 +133,17 @@ FaceForensics++ (FF++): Used for training. Official Website
 
 Celeb-DF (CeDF): Used for validation. Official Website
 
-🤝 Contributing
-Contributions are welcome! Please feel free to open an issue or submit a pull request.
+
 
 📄 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-🙏 Acknowledgments
+Acknowledgments
 The original ViXNet authors for their innovative architecture.
 
 The creators of the FaceForensics++ and Celeb-DF datasets.
 
 The open-source community for libraries like PyTorch, Flask, and Facenet-PyTorch.
 
-📧 Contact
+ Contact
 For any questions or feedback, please reach out to Ghulam Haider at haiderghulam1998@gmail.com
