@@ -6,7 +6,7 @@ This project provides an efficient and powerful deepfake detection system based 
 
 The model is trained on the **FaceForensics++ (FF++)** dataset and validated for generalization on the **Celeb-DF (CeDF)** dataset. A clean, modern web application built with Flask allows for easy, real-time inference.
 
-[Deepfake Detection Web App](https://raw.githubusercontent.com/Ghulam-Haider/Deepfake-Detection-with-ViXNet-and-EfficientNet-B3/main/assets/webapp_1.png)
+![Deepfake Detection Web App](https://github.com/Ghulamhai/ImageDeepfakeDetection/blob/main/assets/webapp_1.png)
 ![Deepfake Detection Web App](https://raw.githubusercontent.com/Ghulam-Haider/Deepfake-Detection-with-ViXNet-and-EfficientNet-B3/main/assets/webapp_2.png)
 
 ---
