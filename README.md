@@ -29,7 +29,7 @@ The model is trained on the **FaceForensics++ (FF++)** dataset and validated for
 
 ### 2. Clone the Repository
 
-```bash
+
 # PASTE YOUR GITHUB REPO URL HERE
 git clone [https://github.com/](https://github.com/)[your-username]/[your-repo-name].git
 cd [your-repo-name]
